@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Wedding</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Shinji & Marie</h1>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            <nav class="header-menu" id="header-menu">
+                <ul>
+                    <li><a href="#Welcome">Welcome</a></li>
+                    <li><a href="#Table">Table</a></li>
+                    <li><a href="#Timeline">Timeline</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#PhotoSharing">Photo Sharing</a></li>
+                    <li><a href="#ThankYou">Thank You</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="Welcome fade" id="Welcome">
+            
+            <h2>Welcome to our Wedding</h2>
+                <p class="Welcome-date">2026.08.01</p>
+            <div class="Welcome-text">
+                <div class="text-jp">
+                    <p>本日は私たちの結婚式にお越しいただき<br>誠にありがとうございます<br><br>
+                    大切な皆さまと<br>この特別な１日を過ごせることを<br>心より嬉しく思います<br><br>
+                    たくさん笑って<br>たくさん楽しんでいただけたら嬉しいです</p>
+                </div>
+                <div class="text-en">
+                    <p>Thank you very much for coming<br>to clebrate our wedding day<br><br>
+                    We are truly happy<br>to share this special day<br>
+                    with all of our beloved family and friends<br><br>
+                    We hope you laugh a lot<br>have fun<br>and enjoy every moment with us</p>
+                </div>
+            </div>
+
+        </section>
+
+        
+        <section class="Table fade" id="Table">
+            <h2>Table</h2>
+            <div class="Table-text">
+                <span class="text-jp">詳しくはタップしてください</span>
+                <span class="text-en"></span>
+            </div>
+            <div class="seat-map-bridegroom">Bride and Groom</div>
+            <div class="seat-map">
+                <button class="table-btn" data-table="A">A</button>
+                <button class="table-btn" data-table="B">B</button>
+                <button class="table-btn" data-table="C">C</button>
+                <button class="table-btn" data-table="D">D</button>
+                <button class="table-btn" data-table="E">E</button>
+                <button class="table-btn" data-table="F">F</button>
+                <button class="table-btn" data-table="G">G</button>
+                <button class="table-btn" data-table="H">H</button>
+                <button class="table-btn" data-table="I">I</button>
+            </div>
+            <div class="seat-map-entrance">Entrance</div>
+        </section>
+
+        <div class="bottom-sheet">
+            <!-- <div class="bottom-sheet-overlay"></div> -->
+                <div class="bottom-sheet-content">
+                    <button class="close">×</button>
+                    <div class="sheet-content" id="sheet-content"></div>
+                </div>
+            </div>
+
+
+        <section class="Timeline fade" id="Timeline">
+            <h2>Timeline</h2>
+            <div class="Timeline-content">
+                <div class="Timeline-line">
+                    <div class="Timeline-item">
+                        <p><span class="Time">10:00</span><br><span class="text-jp">受付開始</span><span class="text-en">Reception</span></p>
+                    </div>
+                    <div class="Timeline-item">
+                        <p><span class="Time">10:30</span><br><span class="text-jp">挙式</span><span class="text-en">Wedding Ceremony</span></p>    
+                    </div>
+                    <div class="Timeline-item">
+                        <p><span class="Time">11:40</span><br><span class="text-jp">お食事と乾杯</span><span class="text-en">Lunch & Toasts</span></p>
+                    </div>
+                    <div class="Timeline-item">
+                        <p><span class="Time">12:30</span><br><span class="text-jp">ケーキ</span><span class="text-en">Cake</span></p>
+                    </div>
+                    <div class="Timeline-item">
+                        <p><span class="Time">14:00</span><br><span class="text-jp">おひらき</span><span class="text-en">Thank you</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <section class="Menu fade" id="Menu">
+            <h2>Menu</h2>
+            <div class="Menu-food"><div class="Menu-food-line">
+                <ul>
+                    <li>
+                        <h3 class="menu-content"><span class="text-en">Appetizer</span></h3>
+                    </li>
+                        <p class="menu-content-name">冷たい雲丹のロワイヤル<br><span class="text-en">Chilled Sea Urchin Royale</span></p>
+                        <details class="menu-content-details">
+                            <summary class="menu-content-summary">シェフからの一言</summary>
+                            口どけのよいロワイヤルとコンソメジュレ、濃厚な雲丹を組み合わせました。下から全体を掬いながらお召し上がりください。
+                        </details>
+                    <li>
+                        <h3 class="menu-content"><span class="text-en">Appetizer</span></h3>
+                    </li>
+                        <p class="menu-content-name">岩手県石黒農場産パンタードの<br>ガランティーヌ<br><span class="text-en">Galantine of Guinea Fowl from Ishiguro Farm, Iwate</span></p>
+                        <details class="menu-content-details">
+                            <summary class="menu-content-summary">シェフとまりえからの一言</summary>
+                            ホロホロ鶏でドライフルーツとフォアグラを中に包みしっとり仕上げます。一皿で一羽すべての部位をお楽しみいただけます。<br>まりえはこういう組み合わせが大好き。
+                        </details>
+                    <li>
+                        <h3 class="menu-content"><span class="text-en">Potage</span></h3>
+                    </li>
+                        <p class="menu-content-name">季節のポタージュ<br><span class="text-en">Seasonal Vegetable Potage</span></p>
+                        <details class="menu-content-details">
+                            <summary class="menu-content-summary">シェフからの一言</summary>
+                            旬の野菜を使用したポタージュです。
+                        </details>
+                    <li>
+                        <h3 class="menu-content"><span class="text-en">Fish dishes</span></h3>
+                    </li>
+                        <p class="menu-content-name">帆立と蟹のムースを乗せた旬魚の<br>さっくりポワレ ウニクリームソース<br><span class="text-en">Pan-Seared Seasonal Fish with Scallop & Crab Mousse,<br>Sea Urchin Cream Sauce</span></p>
+                        <details class="menu-content-details">
+                            <summary class="menu-content-summary">シェフと真治,まりえからの一言</summary>
+                            蟹を加えた帆立のムースを旬魚に貼り付け香ばしく焼き上げます。濃厚な雲丹クリームソースがぴったりの1品です<br>試食した時から忘れられない激うまの一皿☺︎
+                        </details>
+                    <li>
+                        <h3 class="menu-content"><span class="text-en">Granita</span></h3>
+                    </li>
+                        <p class="menu-content-name">お口直し<br><span class="text-en">Palate-Cleansing Granita</span></p>
+                    <li>
+                        <h3 class="menu-content"><span class="text-en">Meat dishes</span></h3>
+                    </li>
+                        <p class="menu-content-name">牛フィレ肉とフォアグラのソテー<br>トリュフソース〜ロッシーニ風〜<br><span class="text-en">Beef Tenderloin and Foie Gras Rossini with Truffle Sauce</span></p>
+                        <details class="menu-content-details">
+                            <summary class="menu-content-summary">シェフと真治からの一言</summary>
+                            世界三大珍味のひとつであるフレッシュフォアグラのソテーを牛フィレ肉の上に贅沢に乗せたフランスの伝統的な料理です。<br>真治激推し。目を閉じて頷かずにはいられない一皿。
+                        </details>
+                    <li>
+                        <h3 class="menu-content"><span class="text-en">Dessert</span></h3>
+                    </li>
+                        <p class="menu-content-name">秘密</p>
+                </ul>
+            </div></div>
+        </section>
+        
+        <section class="PhotoSharing fade" id="PhotoSharing">
+            <h2>PhotoSharing</h2>
+            <p class="photosharing-text">本日撮影いただいたお写真を<br>ぜひ共有アルバムへお寄せください☺︎<br><br>※共有アルバムに参加するとお名前や<br>プロフィール画像が他の参加者に<br>表示される場合があります</p>
+            <img src="assets/img/qr-code.png" alt="" class="photosharing-qrcode">
+        </section>
+
+        
+        <section class="ThankYou fade" id="ThankYou">
+            <h2>Thank You</h2>
+                <div class="ThankYou-text">
+                    <span class="text-jp">本日はお越しいただき<br>ありがとうございました</span><br><br>
+                    <span class="text-en">Thank you for celebrating with us</span>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text"><span class="text-en">© 2026 Marie & Shinji</span></p>
+    </footer>
+
+    <script src="assets/index.js"></script>
+</body>
+</html>
