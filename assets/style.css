@@ -198,21 +198,6 @@
     background: transparent;
     color: #fffaf0;
   }
-  .seat-map-entrance {
-    width: fit-content;
-    height: auto;
-    text-align: center;
-    padding: .5rem 3rem;
-    border-radius: 2rem;
-    margin: 0 auto;
-    margin-top: 2rem;
-    transition: .2s;
-    border: 0.05rem solid #fffaf0;
-    border-radius: 999px;
-    background: transparent;
-    color: #fffaf0;
-  }
-
   .seat-map{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -114,10 +114,10 @@ const tableData = {
     <h2>Table D</h2>
     <div class="guest-list">
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">星野 周太郎</p></div>
-      <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">上原 荘太郎</p></div>
+      <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">上原 壮太郎</p></div>
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">酒井 健</p></div>
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">髙橋 大咲</p></div>
-      <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">篠崎 菜花</p></div>
+      <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">篠﨑 菜花</p></div>
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">日浦 明美</p></div>
     </div>
     `,
@@ -128,7 +128,7 @@ const tableData = {
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">仲座 クリストファ光樹</p></div>
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">遠藤 秀伍</p></div>
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">小原 久和</p></div>
-      <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">山田 一太郎</p></div>
+      <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">山田 一太朗</p></div>
       <div class="guest"><p class="guest-list-title">新郎 友人</p><p class="guest-list-name">川原 優人</p></div>
     </div>
     `,
