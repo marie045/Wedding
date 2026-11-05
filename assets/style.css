@@ -1,5 +1,3 @@
-@media screen and (max-width:787px) {
-
   html{
     font-size: 62.5%;
   }
@@ -468,5 +466,3 @@
   .footer-text {
     text-align: center;
   }
-
-}
